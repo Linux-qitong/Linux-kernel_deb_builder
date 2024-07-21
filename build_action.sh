@@ -100,7 +100,7 @@ cd linux-"$stable" || exit
 
 # copy config file
 cp ../config .config
-cp ../cjktty-6.9.patch cjktty.patch  #把cjtty补丁添加到内核源码上
+cp ../cjktty-6.9.patch cjktty.patch 
 
 #利用scripts/config对内核进行修改，之后需要写个注释对上述提到的所以东西进行讲解
 scripts/config --disable DEBUG_INFO_X86
