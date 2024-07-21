@@ -29,7 +29,7 @@ jobs:
       - name: install dep
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl jq gpg python3-pyquery wget xz-utils make gcc flex bison dpkg-dev bc rsync kmod cpio libssl-dev git lsb vim libelf-dev neofetch python3-pip python3-tk debhelper zstd dpkg-sig patch
+          sudo apt-get install -y curl jq gpg python3-pyquery wget xz-utils make gcc-12 flex bison dpkg-dev bc rsync kmod cpio libssl-dev git lsb vim libelf-dev neofetch python3-pip python3-tk debhelper zstd dpkg-sig patch
 
       - name: Build
         run: bash build_action.sh
