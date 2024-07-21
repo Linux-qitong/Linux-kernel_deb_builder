@@ -49,8 +49,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         if: ${{ steps.compare.outputs.skip != 'true' }}
         run: |
-          git config user.name "XXTXTOP"
-          git config user.email "xxtxtop@gmail.com"
+          git config user.name "Linux-qitong"
+          git config user.email "sweetcandymini@foxmail.com"
           ls -al
           pwd
           cp /tmp/mainline.txt  txt/mainline.txt
